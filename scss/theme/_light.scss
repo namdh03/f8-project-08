@@ -1,0 +1,11 @@
+html {
+    --text-color: #1a162e;
+    --icon-color: brightness(0) saturate(100%) invert(7%) sepia(32%)
+        saturate(1607%) hue-rotate(215deg) brightness(95%) contrast(95%);
+
+    --header-bg-color: #eee;
+    --top-act-group-bg-color: #fff;
+    --top-act-group-shadow: rgba(237, 237, 246, 0.2);
+    --top-act-group-separate: #ededf6;
+    --top-act-user-shadow: rgba(0, 0, 0, 0.08);
+}
