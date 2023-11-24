@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --text-color: #1a162e;
+    --icon-color: brightness(0) saturate(100%) invert(7%) sepia(32%)
+        saturate(1607%) hue-rotate(215deg) brightness(95%) contrast(95%);
+}
+
 html {
     font-size: 62.5%;
 }
@@ -13,6 +19,7 @@ body {
         "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
         "Helvetica Neue", sans-serif;
     font-size: 1.6rem;
+    color: var(--text-color);
 }
 
 a {
@@ -26,10 +33,15 @@ textarea,
 select {
     font-family: inherit;
     font-size: inherit;
+    color: inherit;
 }
 
 button {
     outline: none;
     border: none;
     background: transparent;
+}
+
+.icon {
+    filter: var(--icon-color);
 }
